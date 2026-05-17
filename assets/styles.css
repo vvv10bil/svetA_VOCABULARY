@@ -89,6 +89,10 @@ body {
   font-weight: 600;
 }
 
+.hero__group {
+  opacity: 0.75;
+}
+
 .lang {
   font-weight: 600;
   padding: 2px 8px;

@@ -93,4 +93,4 @@ the open.
 
 ## Author
 
-Svitlana — coursework, 2026.
+**Svitlana Boloshyna**, group ФЛПЛ-12 — coursework, 2026.
