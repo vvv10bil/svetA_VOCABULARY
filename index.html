@@ -8,12 +8,39 @@
     name="description"
     content="A single-page trilingual dictionary (Ukrainian / English / German) for the automobile industry. Coursework by Svitlana Boloshyna, group ФЛПЛ-12."
   />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap"
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
   <header class="hero">
+    <div class="hero__bg" aria-hidden="true">
+      <!-- Subtle automotive-themed background: large gear + small dots -->
+      <svg class="hero__gear hero__gear--lg" viewBox="0 0 200 200" aria-hidden="true">
+        <path
+          fill="currentColor"
+          d="M100 0l8 18 19-5 5 19 19 8-9 18 14 14-14 14 9 18-19 8-5 19-19-5-8 18-8-18-19 5-5-19-19-8 9-18-14-14 14-14-9-18 19-8 5-19 19 5z"
+        />
+        <circle cx="100" cy="100" r="30" fill="none" stroke="currentColor" stroke-width="10" />
+      </svg>
+      <svg class="hero__gear hero__gear--sm" viewBox="0 0 200 200" aria-hidden="true">
+        <path
+          fill="currentColor"
+          d="M100 0l8 18 19-5 5 19 19 8-9 18 14 14-14 14 9 18-19 8-5 19-19-5-8 18-8-18-19 5-5-19-19-8 9-18-14-14 14-14-9-18 19-8 5-19 19 5z"
+        />
+        <circle cx="100" cy="100" r="30" fill="none" stroke="currentColor" stroke-width="10" />
+      </svg>
+    </div>
+
     <div class="hero__inner">
-      <p class="hero__eyebrow">Coursework Project &middot; Applied Linguistics</p>
+      <p class="hero__eyebrow">
+        <span class="hero__dot"></span>
+        Coursework Project &middot; Applied Linguistics
+      </p>
       <h1 class="hero__title">
         Trilingual Automobile<br />Industry Dictionary
       </h1>
@@ -23,6 +50,22 @@
         <span class="lang lang--en">English</span>, and
         <span class="lang lang--de">German</span>.
       </p>
+
+      <ul class="hero__stats" aria-label="Glossary statistics">
+        <li>
+          <span class="hero__stat-num">123</span>
+          <span class="hero__stat-label">terms</span>
+        </li>
+        <li>
+          <span class="hero__stat-num">3</span>
+          <span class="hero__stat-label">languages</span>
+        </li>
+        <li>
+          <span class="hero__stat-num">13</span>
+          <span class="hero__stat-label">topic groups</span>
+        </li>
+      </ul>
+
       <p class="hero__author">
         by <strong>Svitlana Boloshyna</strong>
         &middot; <span class="hero__group">group ФЛПЛ-12</span>
@@ -37,6 +80,13 @@
       </label>
 
       <div class="search__bar">
+        <svg class="search__icon" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2" />
+          <line
+            x1="16.5" y1="16.5" x2="21" y2="21"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          />
+        </svg>
         <input
           id="search-input"
           type="search"
@@ -56,19 +106,29 @@
           Any language
         </button>
         <button class="filter" data-lang="ukrainian" role="radio" aria-checked="false">
-          Ukrainian
+          <span class="filter__dot lang--ua"></span> Ukrainian
         </button>
         <button class="filter" data-lang="english" role="radio" aria-checked="false">
-          English
+          <span class="filter__dot lang--en"></span> English
         </button>
         <button class="filter" data-lang="german" role="radio" aria-checked="false">
-          German
+          <span class="filter__dot lang--de"></span> German
         </button>
       </div>
 
+      <div class="quick" aria-label="Quick searches">
+        <span class="quick__label">Try:</span>
+        <button class="quick__chip" data-query="двигун" type="button">двигун</button>
+        <button class="quick__chip" data-query="brake" type="button">brake</button>
+        <button class="quick__chip" data-query="Getriebe" type="button">Getriebe</button>
+        <button class="quick__chip" data-query="hybrid" type="button">hybrid</button>
+        <button class="quick__chip" data-query="ABS" type="button">ABS</button>
+        <button class="quick__chip" data-query="Reifen" type="button">Reifen</button>
+      </div>
+
       <p id="search-help" class="search__help">
-        Search is case-insensitive and matches partial words.
-        Empty input shows everything.
+        <kbd>/</kbd> to focus search &middot; <kbd>Esc</kbd> to clear &middot;
+        search is case- and diacritic-insensitive.
       </p>
     </section>
 
@@ -99,6 +159,27 @@
           </div>
         </dl>
       </article>
+    </template>
+
+    <template id="empty-template">
+      <div class="results__empty">
+        <svg class="results__empty-icon" viewBox="0 0 64 64" aria-hidden="true">
+          <circle cx="28" cy="28" r="18" fill="none" stroke="currentColor" stroke-width="3" />
+          <line
+            x1="42" y1="42" x2="56" y2="56"
+            stroke="currentColor" stroke-width="3" stroke-linecap="round"
+          />
+          <line
+            x1="20" y1="28" x2="36" y2="28"
+            stroke="currentColor" stroke-width="3" stroke-linecap="round"
+          />
+        </svg>
+        <strong class="results__empty-title"></strong>
+        <p class="results__empty-text">
+          Try a different spelling, a shorter substring, or switch the
+          language filter to <em>Any language</em>.
+        </p>
+      </div>
     </template>
   </main>
 

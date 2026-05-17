@@ -20,7 +20,9 @@
     status: document.getElementById("status-line"),
     results: document.getElementById("results"),
     filters: document.querySelectorAll(".filter"),
+    chips: document.querySelectorAll(".quick__chip"),
     template: document.getElementById("card-template"),
+    emptyTemplate: document.getElementById("empty-template"),
   };
 
   const state = {
@@ -142,13 +144,21 @@
   }
 
   function renderEmptyState(query) {
-    const safeQuery = escapeHtml(query);
-    els.results.innerHTML = `
-      <div class="results__empty">
-        <strong>Nothing matched &ldquo;${safeQuery}&rdquo;</strong>
-        Try a different spelling, a shorter substring, or switch the language filter to <em>Any language</em>.
-      </div>
-    `;
+    els.results.innerHTML = "";
+    if (els.emptyTemplate) {
+      const node = els.emptyTemplate.content.firstElementChild.cloneNode(true);
+      node.querySelector(".results__empty-title").textContent =
+        `Nothing matched “${query}”`;
+      els.results.appendChild(node);
+    } else {
+      const safeQuery = escapeHtml(query);
+      els.results.innerHTML = `
+        <div class="results__empty">
+          <strong>Nothing matched &ldquo;${safeQuery}&rdquo;</strong>
+          Try a different spelling or switch the language filter to <em>Any language</em>.
+        </div>
+      `;
+    }
   }
 
   function renderResults(matches, query) {
@@ -231,6 +241,16 @@
       state.query = "";
       render();
       els.input.focus();
+    });
+
+    els.chips.forEach((chip) => {
+      chip.addEventListener("click", () => {
+        const q = chip.getAttribute("data-query") || "";
+        els.input.value = q;
+        state.query = q;
+        render();
+        els.input.focus();
+      });
     });
 
     els.filters.forEach((btn) => {
