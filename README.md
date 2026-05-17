@@ -91,6 +91,18 @@ three prompts (initial site structure, search-only, refined search) and
 a discussion of the linguistic decisions that each iteration forced into
 the open.
 
+## Source text for the coursework write-up
+
+The practical part of the coursework (the 10–15 page "курсовий
+проєкт" half of the .doc submission) is drafted in
+[`docs/coursework_practical.md`](docs/coursework_practical.md). It walks
+through every stage of the work — theme selection, glossary
+construction, Excel → JSON conversion, site architecture, search
+algorithm, AI prompt iterations, testing, and an evaluation against
+the five criteria in the brief — in the order required by Section X of
+the brief. The file is ready to be copy-pasted into Word and
+supplemented with screenshots, a title page and the bibliography.
+
 ## Author
 
 **Svitlana Boloshyna**, group ФЛПЛ-12 — coursework, 2026.
