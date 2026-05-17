@@ -1,0 +1,875 @@
+{
+  "meta": {
+    "title": "Trilingual Automobile Industry Glossary",
+    "languages": [
+      "Ukrainian",
+      "English",
+      "German"
+    ],
+    "theme": "Automobile Industry",
+    "total": 123
+  },
+  "entries": [
+    {
+      "id": 1,
+      "ukrainian": "Легковий автомобіль",
+      "english": "Passenger car",
+      "german": "Personenkraftwagen",
+      "notes": "Vehicle class; DE abbr. PKW"
+    },
+    {
+      "id": 2,
+      "ukrainian": "Вантажний автомобіль",
+      "english": "Truck",
+      "german": "Lastkraftwagen",
+      "notes": "Vehicle class; DE abbr. LKW"
+    },
+    {
+      "id": 3,
+      "ukrainian": "Седан",
+      "english": "Sedan",
+      "german": "Limousine",
+      "notes": "Body style; UK 'saloon'"
+    },
+    {
+      "id": 4,
+      "ukrainian": "Хетчбек",
+      "english": "Hatchback",
+      "german": "Schrägheck",
+      "notes": "Body style"
+    },
+    {
+      "id": 5,
+      "ukrainian": "Універсал",
+      "english": "Estate car",
+      "german": "Kombi",
+      "notes": "Body style; US 'station wagon'"
+    },
+    {
+      "id": 6,
+      "ukrainian": "Позашляховик",
+      "english": "Off-road vehicle",
+      "german": "Geländewagen",
+      "notes": "Body style"
+    },
+    {
+      "id": 7,
+      "ukrainian": "Кросовер",
+      "english": "Crossover",
+      "german": "Crossover",
+      "notes": "Body style; SUV-derived"
+    },
+    {
+      "id": 8,
+      "ukrainian": "Купе",
+      "english": "Coupe",
+      "german": "Coupé",
+      "notes": "Body style; two-door"
+    },
+    {
+      "id": 9,
+      "ukrainian": "Кабріолет",
+      "english": "Convertible",
+      "german": "Cabriolet",
+      "notes": "Body style; open top"
+    },
+    {
+      "id": 10,
+      "ukrainian": "Пікап",
+      "english": "Pickup truck",
+      "german": "Pick-up",
+      "notes": "Body style; open cargo bed"
+    },
+    {
+      "id": 11,
+      "ukrainian": "Мікроавтобус",
+      "english": "Minivan",
+      "german": "Kleinbus",
+      "notes": "Multi-purpose passenger vehicle"
+    },
+    {
+      "id": 12,
+      "ukrainian": "Електромобіль",
+      "english": "Electric vehicle",
+      "german": "Elektrofahrzeug",
+      "notes": "EN abbr. EV; DE 'E-Auto'"
+    },
+    {
+      "id": 13,
+      "ukrainian": "Двигун",
+      "english": "Engine",
+      "german": "Motor",
+      "notes": "Core powertrain component"
+    },
+    {
+      "id": 14,
+      "ukrainian": "Двигун внутрішнього згоряння",
+      "english": "Internal combustion engine",
+      "german": "Verbrennungsmotor",
+      "notes": "EN abbr. ICE"
+    },
+    {
+      "id": 15,
+      "ukrainian": "Бензиновий двигун",
+      "english": "Petrol engine",
+      "german": "Benzinmotor",
+      "notes": "US 'gasoline engine'"
+    },
+    {
+      "id": 16,
+      "ukrainian": "Дизельний двигун",
+      "english": "Diesel engine",
+      "german": "Dieselmotor",
+      "notes": "Compression-ignition"
+    },
+    {
+      "id": 17,
+      "ukrainian": "Гібридний силовий агрегат",
+      "english": "Hybrid powertrain",
+      "german": "Hybridantrieb",
+      "notes": "ICE + electric motor"
+    },
+    {
+      "id": 18,
+      "ukrainian": "Електродвигун",
+      "english": "Electric motor",
+      "german": "Elektromotor",
+      "notes": "EV powertrain"
+    },
+    {
+      "id": 19,
+      "ukrainian": "Турбонагнітач",
+      "english": "Turbocharger",
+      "german": "Turbolader",
+      "notes": "Forced induction; informal: 'turbo'"
+    },
+    {
+      "id": 20,
+      "ukrainian": "Циліндр",
+      "english": "Cylinder",
+      "german": "Zylinder",
+      "notes": "Engine part"
+    },
+    {
+      "id": 21,
+      "ukrainian": "Поршень",
+      "english": "Piston",
+      "german": "Kolben",
+      "notes": "Engine part"
+    },
+    {
+      "id": 22,
+      "ukrainian": "Колінчастий вал",
+      "english": "Crankshaft",
+      "german": "Kurbelwelle",
+      "notes": "Engine part"
+    },
+    {
+      "id": 23,
+      "ukrainian": "Розподільний вал",
+      "english": "Camshaft",
+      "german": "Nockenwelle",
+      "notes": "Engine part"
+    },
+    {
+      "id": 24,
+      "ukrainian": "Свічка запалювання",
+      "english": "Spark plug",
+      "german": "Zündkerze",
+      "notes": "Petrol engines only"
+    },
+    {
+      "id": 25,
+      "ukrainian": "Паливна форсунка",
+      "english": "Fuel injector",
+      "german": "Einspritzdüse",
+      "notes": "Fuel-delivery component"
+    },
+    {
+      "id": 26,
+      "ukrainian": "Радіатор",
+      "english": "Radiator",
+      "german": "Kühler",
+      "notes": "Cooling system"
+    },
+    {
+      "id": 27,
+      "ukrainian": "Об'єм двигуна",
+      "english": "Engine displacement",
+      "german": "Hubraum",
+      "notes": "Measured in litres or cc"
+    },
+    {
+      "id": 28,
+      "ukrainian": "Коробка передач",
+      "english": "Gearbox",
+      "german": "Getriebe",
+      "notes": "US 'transmission'"
+    },
+    {
+      "id": 29,
+      "ukrainian": "Механічна коробка передач",
+      "english": "Manual transmission",
+      "german": "Schaltgetriebe",
+      "notes": "Driver-operated"
+    },
+    {
+      "id": 30,
+      "ukrainian": "Автоматична коробка передач",
+      "english": "Automatic transmission",
+      "german": "Automatikgetriebe",
+      "notes": "Self-shifting"
+    },
+    {
+      "id": 31,
+      "ukrainian": "Зчеплення",
+      "english": "Clutch",
+      "german": "Kupplung",
+      "notes": "Manual transmissions"
+    },
+    {
+      "id": 32,
+      "ukrainian": "Карданний вал",
+      "english": "Driveshaft",
+      "german": "Antriebswelle",
+      "notes": "Drivetrain part"
+    },
+    {
+      "id": 33,
+      "ukrainian": "Диференціал",
+      "english": "Differential",
+      "german": "Differential",
+      "notes": "Drivetrain part"
+    },
+    {
+      "id": 34,
+      "ukrainian": "Передній привід",
+      "english": "Front-wheel drive",
+      "german": "Frontantrieb",
+      "notes": "EN abbr. FWD"
+    },
+    {
+      "id": 35,
+      "ukrainian": "Задній привід",
+      "english": "Rear-wheel drive",
+      "german": "Heckantrieb",
+      "notes": "EN abbr. RWD"
+    },
+    {
+      "id": 36,
+      "ukrainian": "Повний привід",
+      "english": "All-wheel drive",
+      "german": "Allradantrieb",
+      "notes": "EN abbr. AWD; also 4x4"
+    },
+    {
+      "id": 37,
+      "ukrainian": "Передавальне число",
+      "english": "Gear ratio",
+      "german": "Übersetzungsverhältnis",
+      "notes": "Drivetrain specification"
+    },
+    {
+      "id": 38,
+      "ukrainian": "Гальмівна система",
+      "english": "Brake system",
+      "german": "Bremssystem",
+      "notes": "Active safety"
+    },
+    {
+      "id": 39,
+      "ukrainian": "Дискові гальма",
+      "english": "Disc brakes",
+      "german": "Scheibenbremsen",
+      "notes": "Brake type"
+    },
+    {
+      "id": 40,
+      "ukrainian": "Барабанні гальма",
+      "english": "Drum brakes",
+      "german": "Trommelbremsen",
+      "notes": "Brake type"
+    },
+    {
+      "id": 41,
+      "ukrainian": "Гальмівні колодки",
+      "english": "Brake pads",
+      "german": "Bremsbeläge",
+      "notes": "Wear item"
+    },
+    {
+      "id": 42,
+      "ukrainian": "Стоянкове гальмо",
+      "english": "Parking brake",
+      "german": "Handbremse",
+      "notes": "Also 'handbrake'"
+    },
+    {
+      "id": 43,
+      "ukrainian": "Підвіска",
+      "english": "Suspension",
+      "german": "Federung",
+      "notes": "Chassis system"
+    },
+    {
+      "id": 44,
+      "ukrainian": "Амортизатор",
+      "english": "Shock absorber",
+      "german": "Stoßdämpfer",
+      "notes": "Suspension part"
+    },
+    {
+      "id": 45,
+      "ukrainian": "Пружина підвіски",
+      "english": "Suspension spring",
+      "german": "Federbein",
+      "notes": "Suspension part"
+    },
+    {
+      "id": 46,
+      "ukrainian": "Кермо",
+      "english": "Steering wheel",
+      "german": "Lenkrad",
+      "notes": "Driver interface"
+    },
+    {
+      "id": 47,
+      "ukrainian": "Рульове управління",
+      "english": "Steering system",
+      "german": "Lenkung",
+      "notes": "Vehicle system"
+    },
+    {
+      "id": 48,
+      "ukrainian": "Підшипник",
+      "english": "Bearing",
+      "german": "Lager",
+      "notes": "Generic mechanical part"
+    },
+    {
+      "id": 49,
+      "ukrainian": "Розвал-сходження",
+      "english": "Wheel alignment",
+      "german": "Achsvermessung",
+      "notes": "Service procedure"
+    },
+    {
+      "id": 50,
+      "ukrainian": "Акумуляторна батарея",
+      "english": "Battery",
+      "german": "Batterie",
+      "notes": "12V starter battery"
+    },
+    {
+      "id": 51,
+      "ukrainian": "Генератор",
+      "english": "Alternator",
+      "german": "Lichtmaschine",
+      "notes": "Charging system"
+    },
+    {
+      "id": 52,
+      "ukrainian": "Стартер",
+      "english": "Starter motor",
+      "german": "Anlasser",
+      "notes": "Starting system"
+    },
+    {
+      "id": 53,
+      "ukrainian": "Запобіжник",
+      "english": "Fuse",
+      "german": "Sicherung",
+      "notes": "Electrical protection"
+    },
+    {
+      "id": 54,
+      "ukrainian": "Електропроводка",
+      "english": "Wiring harness",
+      "german": "Kabelbaum",
+      "notes": "Electrical"
+    },
+    {
+      "id": 55,
+      "ukrainian": "Блок керування двигуном",
+      "english": "Engine control unit",
+      "german": "Motorsteuergerät",
+      "notes": "EN abbr. ECU"
+    },
+    {
+      "id": 56,
+      "ukrainian": "Датчик",
+      "english": "Sensor",
+      "german": "Sensor",
+      "notes": "Used across many systems"
+    },
+    {
+      "id": 57,
+      "ukrainian": "Бортовий комп'ютер",
+      "english": "On-board computer",
+      "german": "Bordcomputer",
+      "notes": "Trip data + diagnostics"
+    },
+    {
+      "id": 58,
+      "ukrainian": "Зарядна станція",
+      "english": "Charging station",
+      "german": "Ladestation",
+      "notes": "EV infrastructure"
+    },
+    {
+      "id": 59,
+      "ukrainian": "Тягова батарея",
+      "english": "Traction battery",
+      "german": "Traktionsbatterie",
+      "notes": "High-voltage EV pack"
+    },
+    {
+      "id": 60,
+      "ukrainian": "Кузов",
+      "english": "Body",
+      "german": "Karosserie",
+      "notes": "Vehicle structure"
+    },
+    {
+      "id": 61,
+      "ukrainian": "Капот",
+      "english": "Hood",
+      "german": "Motorhaube",
+      "notes": "UK 'bonnet'"
+    },
+    {
+      "id": 62,
+      "ukrainian": "Багажник",
+      "english": "Trunk",
+      "german": "Kofferraum",
+      "notes": "UK 'boot'"
+    },
+    {
+      "id": 63,
+      "ukrainian": "Двері",
+      "english": "Door",
+      "german": "Tür",
+      "notes": "Body part"
+    },
+    {
+      "id": 64,
+      "ukrainian": "Бампер",
+      "english": "Bumper",
+      "german": "Stoßstange",
+      "notes": "Exterior trim / absorber"
+    },
+    {
+      "id": 65,
+      "ukrainian": "Крило",
+      "english": "Fender",
+      "german": "Kotflügel",
+      "notes": "UK 'wing'"
+    },
+    {
+      "id": 66,
+      "ukrainian": "Лобове скло",
+      "english": "Windshield",
+      "german": "Windschutzscheibe",
+      "notes": "UK 'windscreen'"
+    },
+    {
+      "id": 67,
+      "ukrainian": "Фара",
+      "english": "Headlight",
+      "german": "Scheinwerfer",
+      "notes": "Front lighting"
+    },
+    {
+      "id": 68,
+      "ukrainian": "Задні ліхтарі",
+      "english": "Tail lights",
+      "german": "Rücklichter",
+      "notes": "Rear lighting"
+    },
+    {
+      "id": 69,
+      "ukrainian": "Дзеркало заднього виду",
+      "english": "Rear-view mirror",
+      "german": "Rückspiegel",
+      "notes": "Driver visibility aid"
+    },
+    {
+      "id": 70,
+      "ukrainian": "Салон",
+      "english": "Cabin",
+      "german": "Innenraum",
+      "notes": "Vehicle interior"
+    },
+    {
+      "id": 71,
+      "ukrainian": "Сидіння",
+      "english": "Seat",
+      "german": "Sitz",
+      "notes": "Interior"
+    },
+    {
+      "id": 72,
+      "ukrainian": "Підголівник",
+      "english": "Headrest",
+      "german": "Kopfstütze",
+      "notes": "Safety + comfort"
+    },
+    {
+      "id": 73,
+      "ukrainian": "Ремінь безпеки",
+      "english": "Seat belt",
+      "german": "Sicherheitsgurt",
+      "notes": "Mandatory passive safety"
+    },
+    {
+      "id": 74,
+      "ukrainian": "Панель приладів",
+      "english": "Dashboard",
+      "german": "Armaturenbrett",
+      "notes": "Driver interface"
+    },
+    {
+      "id": 75,
+      "ukrainian": "Спідометр",
+      "english": "Speedometer",
+      "german": "Tachometer",
+      "notes": "Speed instrument"
+    },
+    {
+      "id": 76,
+      "ukrainian": "Тахометр",
+      "english": "Tachometer",
+      "german": "Drehzahlmesser",
+      "notes": "Engine-rpm instrument"
+    },
+    {
+      "id": 77,
+      "ukrainian": "Кондиціонер",
+      "english": "Air conditioning",
+      "german": "Klimaanlage",
+      "notes": "EN abbr. AC; DE 'Klima'"
+    },
+    {
+      "id": 78,
+      "ukrainian": "Опалювач салону",
+      "english": "Cabin heater",
+      "german": "Heizung",
+      "notes": "Comfort system"
+    },
+    {
+      "id": 79,
+      "ukrainian": "Автомагнітола",
+      "english": "Car stereo",
+      "german": "Autoradio",
+      "notes": "Infotainment"
+    },
+    {
+      "id": 80,
+      "ukrainian": "Подушка безпеки",
+      "english": "Airbag",
+      "german": "Airbag",
+      "notes": "Passive safety"
+    },
+    {
+      "id": 81,
+      "ukrainian": "Антиблокувальна система",
+      "english": "Anti-lock braking system",
+      "german": "Antiblockiersystem",
+      "notes": "Abbr. ABS"
+    },
+    {
+      "id": 82,
+      "ukrainian": "Система курсової стійкості",
+      "english": "Electronic stability control",
+      "german": "Elektronisches Stabilitätsprogramm",
+      "notes": "EN abbr. ESC; DE abbr. ESP"
+    },
+    {
+      "id": 83,
+      "ukrainian": "Антипробуксовочна система",
+      "english": "Traction control system",
+      "german": "Traktionskontrolle",
+      "notes": "EN abbr. TCS"
+    },
+    {
+      "id": 84,
+      "ukrainian": "Круїз-контроль",
+      "english": "Cruise control",
+      "german": "Tempomat",
+      "notes": "Driver assistance"
+    },
+    {
+      "id": 85,
+      "ukrainian": "Система допомоги при паркуванні",
+      "english": "Parking assist",
+      "german": "Parkassistent",
+      "notes": "Driver assistance"
+    },
+    {
+      "id": 86,
+      "ukrainian": "Камера заднього виду",
+      "english": "Backup camera",
+      "german": "Rückfahrkamera",
+      "notes": "UK 'reversing camera'"
+    },
+    {
+      "id": 87,
+      "ukrainian": "Адаптивний круїз-контроль",
+      "english": "Adaptive cruise control",
+      "german": "Adaptiver Tempomat",
+      "notes": "EN abbr. ACC"
+    },
+    {
+      "id": 88,
+      "ukrainian": "Система утримання в смузі",
+      "english": "Lane keeping assist",
+      "german": "Spurhalteassistent",
+      "notes": "EN abbr. LKA"
+    },
+    {
+      "id": 89,
+      "ukrainian": "Сліпа зона",
+      "english": "Blind spot",
+      "german": "Toter Winkel",
+      "notes": "Driver visibility limit"
+    },
+    {
+      "id": 90,
+      "ukrainian": "Технічне обслуговування",
+      "english": "Maintenance",
+      "german": "Wartung",
+      "notes": "Scheduled service"
+    },
+    {
+      "id": 91,
+      "ukrainian": "Заміна оливи",
+      "english": "Oil change",
+      "german": "Ölwechsel",
+      "notes": "Routine service"
+    },
+    {
+      "id": 92,
+      "ukrainian": "Моторна олива",
+      "english": "Engine oil",
+      "german": "Motoröl",
+      "notes": "Lubricant"
+    },
+    {
+      "id": 93,
+      "ukrainian": "Антифриз",
+      "english": "Antifreeze",
+      "german": "Frostschutzmittel",
+      "notes": "Cooling-system additive"
+    },
+    {
+      "id": 94,
+      "ukrainian": "Охолоджувальна рідина",
+      "english": "Coolant",
+      "german": "Kühlflüssigkeit",
+      "notes": "Cooling system"
+    },
+    {
+      "id": 95,
+      "ukrainian": "Гальмівна рідина",
+      "english": "Brake fluid",
+      "german": "Bremsflüssigkeit",
+      "notes": "Hydraulic fluid"
+    },
+    {
+      "id": 96,
+      "ukrainian": "Повітряний фільтр",
+      "english": "Air filter",
+      "german": "Luftfilter",
+      "notes": "Wear item"
+    },
+    {
+      "id": 97,
+      "ukrainian": "Масляний фільтр",
+      "english": "Oil filter",
+      "german": "Ölfilter",
+      "notes": "Wear item"
+    },
+    {
+      "id": 98,
+      "ukrainian": "Паливний фільтр",
+      "english": "Fuel filter",
+      "german": "Kraftstofffilter",
+      "notes": "Wear item"
+    },
+    {
+      "id": 99,
+      "ukrainian": "Ремінь ГРМ",
+      "english": "Timing belt",
+      "german": "Zahnriemen",
+      "notes": "Engine wear item"
+    },
+    {
+      "id": 100,
+      "ukrainian": "Шина",
+      "english": "Tire",
+      "german": "Reifen",
+      "notes": "UK 'tyre'"
+    },
+    {
+      "id": 101,
+      "ukrainian": "Колісний диск",
+      "english": "Wheel rim",
+      "german": "Felge",
+      "notes": "Wheel part"
+    },
+    {
+      "id": 102,
+      "ukrainian": "Тиск у шинах",
+      "english": "Tire pressure",
+      "german": "Reifendruck",
+      "notes": "Routine check"
+    },
+    {
+      "id": 103,
+      "ukrainian": "Паливо",
+      "english": "Fuel",
+      "german": "Kraftstoff",
+      "notes": "General term"
+    },
+    {
+      "id": 104,
+      "ukrainian": "Бензин",
+      "english": "Petrol",
+      "german": "Benzin",
+      "notes": "US 'gasoline'"
+    },
+    {
+      "id": 105,
+      "ukrainian": "Дизельне пальне",
+      "english": "Diesel fuel",
+      "german": "Dieselkraftstoff",
+      "notes": "Fuel type"
+    },
+    {
+      "id": 106,
+      "ukrainian": "Стиснений природний газ",
+      "english": "Compressed natural gas",
+      "german": "Erdgas",
+      "notes": "EN abbr. CNG"
+    },
+    {
+      "id": 107,
+      "ukrainian": "Автозаправна станція",
+      "english": "Gas station",
+      "german": "Tankstelle",
+      "notes": "UK 'petrol station'"
+    },
+    {
+      "id": 108,
+      "ukrainian": "Октанове число",
+      "english": "Octane rating",
+      "german": "Oktanzahl",
+      "notes": "Petrol quality"
+    },
+    {
+      "id": 109,
+      "ukrainian": "Витрата палива",
+      "english": "Fuel consumption",
+      "german": "Kraftstoffverbrauch",
+      "notes": "Measured L/100 km"
+    },
+    {
+      "id": 110,
+      "ukrainian": "Викиди CO2",
+      "english": "CO2 emissions",
+      "german": "CO2-Emissionen",
+      "notes": "Environmental metric"
+    },
+    {
+      "id": 111,
+      "ukrainian": "Складальний конвеєр",
+      "english": "Assembly line",
+      "german": "Fließband",
+      "notes": "Production"
+    },
+    {
+      "id": 112,
+      "ukrainian": "Автомобільний завод",
+      "english": "Automotive plant",
+      "german": "Automobilwerk",
+      "notes": "Production facility"
+    },
+    {
+      "id": 113,
+      "ukrainian": "Запасні частини",
+      "english": "Spare parts",
+      "german": "Ersatzteile",
+      "notes": "Aftermarket / OEM"
+    },
+    {
+      "id": 114,
+      "ukrainian": "Серійне виробництво",
+      "english": "Mass production",
+      "german": "Serienproduktion",
+      "notes": "Manufacturing"
+    },
+    {
+      "id": 115,
+      "ukrainian": "Контроль якості",
+      "english": "Quality control",
+      "german": "Qualitätskontrolle",
+      "notes": "EN abbr. QC"
+    },
+    {
+      "id": 116,
+      "ukrainian": "Прототип",
+      "english": "Prototype",
+      "german": "Prototyp",
+      "notes": "R&D stage"
+    },
+    {
+      "id": 117,
+      "ukrainian": "Автомобільний дилер",
+      "english": "Car dealer",
+      "german": "Autohändler",
+      "notes": "Sales channel"
+    },
+    {
+      "id": 118,
+      "ukrainian": "Тест-драйв",
+      "english": "Test drive",
+      "german": "Probefahrt",
+      "notes": "Pre-purchase"
+    },
+    {
+      "id": 119,
+      "ukrainian": "Гарантія",
+      "english": "Warranty",
+      "german": "Garantie",
+      "notes": "After-sales"
+    },
+    {
+      "id": 120,
+      "ukrainian": "Лізинг",
+      "english": "Leasing",
+      "german": "Leasing",
+      "notes": "Financing model"
+    },
+    {
+      "id": 121,
+      "ukrainian": "Автострахування",
+      "english": "Car insurance",
+      "german": "Kfz-Versicherung",
+      "notes": "Mandatory in most markets"
+    },
+    {
+      "id": 122,
+      "ukrainian": "Технічний огляд",
+      "english": "Vehicle inspection",
+      "german": "Hauptuntersuchung",
+      "notes": "DE abbr. HU / 'TÜV'"
+    },
+    {
+      "id": 123,
+      "ukrainian": "Свідоцтво про реєстрацію",
+      "english": "Vehicle registration certificate",
+      "german": "Fahrzeugschein",
+      "notes": "Legal document"
+    }
+  ]
+}

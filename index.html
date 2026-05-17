@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trilingual Automobile Industry Dictionary</title>
+  <meta
+    name="description"
+    content="A single-page trilingual dictionary (Ukrainian / English / German) for the automobile industry. Coursework by Svitlana."
+  />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__inner">
+      <p class="hero__eyebrow">Coursework Project &middot; Applied Linguistics</p>
+      <h1 class="hero__title">
+        Trilingual Automobile<br />Industry Dictionary
+      </h1>
+      <p class="hero__subtitle">
+        Search 123 curated terms across
+        <span class="lang lang--ua">Ukrainian</span>,
+        <span class="lang lang--en">English</span>, and
+        <span class="lang lang--de">German</span>.
+      </p>
+      <p class="hero__author">by <strong>Svitlana</strong></p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="search" aria-label="Search the glossary">
+      <label class="search__label" for="search-input">
+        Type a word or phrase in any of the three languages
+      </label>
+
+      <div class="search__bar">
+        <input
+          id="search-input"
+          type="search"
+          class="search__input"
+          autocomplete="off"
+          spellcheck="false"
+          placeholder="e.g. двигун / engine / Getriebe"
+          aria-describedby="search-help"
+        />
+        <button id="clear-button" type="button" class="search__clear" aria-label="Clear search">
+          &times;
+        </button>
+      </div>
+
+      <div class="filters" role="radiogroup" aria-label="Restrict search to one language">
+        <button class="filter is-active" data-lang="any" role="radio" aria-checked="true">
+          Any language
+        </button>
+        <button class="filter" data-lang="ukrainian" role="radio" aria-checked="false">
+          Ukrainian
+        </button>
+        <button class="filter" data-lang="english" role="radio" aria-checked="false">
+          English
+        </button>
+        <button class="filter" data-lang="german" role="radio" aria-checked="false">
+          German
+        </button>
+      </div>
+
+      <p id="search-help" class="search__help">
+        Search is case-insensitive and matches partial words.
+        Empty input shows everything.
+      </p>
+    </section>
+
+    <section class="status" aria-live="polite">
+      <p id="status-line">Loading glossary&hellip;</p>
+    </section>
+
+    <section id="results" class="results" aria-label="Search results"></section>
+
+    <template id="card-template">
+      <article class="card">
+        <header class="card__header">
+          <span class="card__id"></span>
+          <span class="card__notes"></span>
+        </header>
+        <dl class="card__body">
+          <div class="card__row">
+            <dt class="card__lang lang--ua">UA</dt>
+            <dd class="card__value" data-field="ukrainian"></dd>
+          </div>
+          <div class="card__row">
+            <dt class="card__lang lang--en">EN</dt>
+            <dd class="card__value" data-field="english"></dd>
+          </div>
+          <div class="card__row">
+            <dt class="card__lang lang--de">DE</dt>
+            <dd class="card__value" data-field="german"></dd>
+          </div>
+        </dl>
+      </article>
+    </template>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <p>
+        Built by <strong>Svitlana</strong> &middot; Single-page trilingual
+        dictionary using an Excel-based glossary as a mini database.
+      </p>
+      <p class="footer__meta">
+        Theme: Automobile Industry &middot; 123 entries &middot;
+        Source data: <code>data/glossary.xlsx</code> (also available as JSON &amp; CSV)
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>

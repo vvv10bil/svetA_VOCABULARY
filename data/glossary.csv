@@ -1,0 +1,124 @@
+ID,Ukrainian,English,German,Notes
+1,Легковий автомобіль,Passenger car,Personenkraftwagen,Vehicle class; DE abbr. PKW
+2,Вантажний автомобіль,Truck,Lastkraftwagen,Vehicle class; DE abbr. LKW
+3,Седан,Sedan,Limousine,Body style; UK 'saloon'
+4,Хетчбек,Hatchback,Schrägheck,Body style
+5,Універсал,Estate car,Kombi,Body style; US 'station wagon'
+6,Позашляховик,Off-road vehicle,Geländewagen,Body style
+7,Кросовер,Crossover,Crossover,Body style; SUV-derived
+8,Купе,Coupe,Coupé,Body style; two-door
+9,Кабріолет,Convertible,Cabriolet,Body style; open top
+10,Пікап,Pickup truck,Pick-up,Body style; open cargo bed
+11,Мікроавтобус,Minivan,Kleinbus,Multi-purpose passenger vehicle
+12,Електромобіль,Electric vehicle,Elektrofahrzeug,EN abbr. EV; DE 'E-Auto'
+13,Двигун,Engine,Motor,Core powertrain component
+14,Двигун внутрішнього згоряння,Internal combustion engine,Verbrennungsmotor,EN abbr. ICE
+15,Бензиновий двигун,Petrol engine,Benzinmotor,US 'gasoline engine'
+16,Дизельний двигун,Diesel engine,Dieselmotor,Compression-ignition
+17,Гібридний силовий агрегат,Hybrid powertrain,Hybridantrieb,ICE + electric motor
+18,Електродвигун,Electric motor,Elektromotor,EV powertrain
+19,Турбонагнітач,Turbocharger,Turbolader,Forced induction; informal: 'turbo'
+20,Циліндр,Cylinder,Zylinder,Engine part
+21,Поршень,Piston,Kolben,Engine part
+22,Колінчастий вал,Crankshaft,Kurbelwelle,Engine part
+23,Розподільний вал,Camshaft,Nockenwelle,Engine part
+24,Свічка запалювання,Spark plug,Zündkerze,Petrol engines only
+25,Паливна форсунка,Fuel injector,Einspritzdüse,Fuel-delivery component
+26,Радіатор,Radiator,Kühler,Cooling system
+27,Об'єм двигуна,Engine displacement,Hubraum,Measured in litres or cc
+28,Коробка передач,Gearbox,Getriebe,US 'transmission'
+29,Механічна коробка передач,Manual transmission,Schaltgetriebe,Driver-operated
+30,Автоматична коробка передач,Automatic transmission,Automatikgetriebe,Self-shifting
+31,Зчеплення,Clutch,Kupplung,Manual transmissions
+32,Карданний вал,Driveshaft,Antriebswelle,Drivetrain part
+33,Диференціал,Differential,Differential,Drivetrain part
+34,Передній привід,Front-wheel drive,Frontantrieb,EN abbr. FWD
+35,Задній привід,Rear-wheel drive,Heckantrieb,EN abbr. RWD
+36,Повний привід,All-wheel drive,Allradantrieb,EN abbr. AWD; also 4x4
+37,Передавальне число,Gear ratio,Übersetzungsverhältnis,Drivetrain specification
+38,Гальмівна система,Brake system,Bremssystem,Active safety
+39,Дискові гальма,Disc brakes,Scheibenbremsen,Brake type
+40,Барабанні гальма,Drum brakes,Trommelbremsen,Brake type
+41,Гальмівні колодки,Brake pads,Bremsbeläge,Wear item
+42,Стоянкове гальмо,Parking brake,Handbremse,Also 'handbrake'
+43,Підвіска,Suspension,Federung,Chassis system
+44,Амортизатор,Shock absorber,Stoßdämpfer,Suspension part
+45,Пружина підвіски,Suspension spring,Federbein,Suspension part
+46,Кермо,Steering wheel,Lenkrad,Driver interface
+47,Рульове управління,Steering system,Lenkung,Vehicle system
+48,Підшипник,Bearing,Lager,Generic mechanical part
+49,Розвал-сходження,Wheel alignment,Achsvermessung,Service procedure
+50,Акумуляторна батарея,Battery,Batterie,12V starter battery
+51,Генератор,Alternator,Lichtmaschine,Charging system
+52,Стартер,Starter motor,Anlasser,Starting system
+53,Запобіжник,Fuse,Sicherung,Electrical protection
+54,Електропроводка,Wiring harness,Kabelbaum,Electrical
+55,Блок керування двигуном,Engine control unit,Motorsteuergerät,EN abbr. ECU
+56,Датчик,Sensor,Sensor,Used across many systems
+57,Бортовий комп'ютер,On-board computer,Bordcomputer,Trip data + diagnostics
+58,Зарядна станція,Charging station,Ladestation,EV infrastructure
+59,Тягова батарея,Traction battery,Traktionsbatterie,High-voltage EV pack
+60,Кузов,Body,Karosserie,Vehicle structure
+61,Капот,Hood,Motorhaube,UK 'bonnet'
+62,Багажник,Trunk,Kofferraum,UK 'boot'
+63,Двері,Door,Tür,Body part
+64,Бампер,Bumper,Stoßstange,Exterior trim / absorber
+65,Крило,Fender,Kotflügel,UK 'wing'
+66,Лобове скло,Windshield,Windschutzscheibe,UK 'windscreen'
+67,Фара,Headlight,Scheinwerfer,Front lighting
+68,Задні ліхтарі,Tail lights,Rücklichter,Rear lighting
+69,Дзеркало заднього виду,Rear-view mirror,Rückspiegel,Driver visibility aid
+70,Салон,Cabin,Innenraum,Vehicle interior
+71,Сидіння,Seat,Sitz,Interior
+72,Підголівник,Headrest,Kopfstütze,Safety + comfort
+73,Ремінь безпеки,Seat belt,Sicherheitsgurt,Mandatory passive safety
+74,Панель приладів,Dashboard,Armaturenbrett,Driver interface
+75,Спідометр,Speedometer,Tachometer,Speed instrument
+76,Тахометр,Tachometer,Drehzahlmesser,Engine-rpm instrument
+77,Кондиціонер,Air conditioning,Klimaanlage,EN abbr. AC; DE 'Klima'
+78,Опалювач салону,Cabin heater,Heizung,Comfort system
+79,Автомагнітола,Car stereo,Autoradio,Infotainment
+80,Подушка безпеки,Airbag,Airbag,Passive safety
+81,Антиблокувальна система,Anti-lock braking system,Antiblockiersystem,Abbr. ABS
+82,Система курсової стійкості,Electronic stability control,Elektronisches Stabilitätsprogramm,EN abbr. ESC; DE abbr. ESP
+83,Антипробуксовочна система,Traction control system,Traktionskontrolle,EN abbr. TCS
+84,Круїз-контроль,Cruise control,Tempomat,Driver assistance
+85,Система допомоги при паркуванні,Parking assist,Parkassistent,Driver assistance
+86,Камера заднього виду,Backup camera,Rückfahrkamera,UK 'reversing camera'
+87,Адаптивний круїз-контроль,Adaptive cruise control,Adaptiver Tempomat,EN abbr. ACC
+88,Система утримання в смузі,Lane keeping assist,Spurhalteassistent,EN abbr. LKA
+89,Сліпа зона,Blind spot,Toter Winkel,Driver visibility limit
+90,Технічне обслуговування,Maintenance,Wartung,Scheduled service
+91,Заміна оливи,Oil change,Ölwechsel,Routine service
+92,Моторна олива,Engine oil,Motoröl,Lubricant
+93,Антифриз,Antifreeze,Frostschutzmittel,Cooling-system additive
+94,Охолоджувальна рідина,Coolant,Kühlflüssigkeit,Cooling system
+95,Гальмівна рідина,Brake fluid,Bremsflüssigkeit,Hydraulic fluid
+96,Повітряний фільтр,Air filter,Luftfilter,Wear item
+97,Масляний фільтр,Oil filter,Ölfilter,Wear item
+98,Паливний фільтр,Fuel filter,Kraftstofffilter,Wear item
+99,Ремінь ГРМ,Timing belt,Zahnriemen,Engine wear item
+100,Шина,Tire,Reifen,UK 'tyre'
+101,Колісний диск,Wheel rim,Felge,Wheel part
+102,Тиск у шинах,Tire pressure,Reifendruck,Routine check
+103,Паливо,Fuel,Kraftstoff,General term
+104,Бензин,Petrol,Benzin,US 'gasoline'
+105,Дизельне пальне,Diesel fuel,Dieselkraftstoff,Fuel type
+106,Стиснений природний газ,Compressed natural gas,Erdgas,EN abbr. CNG
+107,Автозаправна станція,Gas station,Tankstelle,UK 'petrol station'
+108,Октанове число,Octane rating,Oktanzahl,Petrol quality
+109,Витрата палива,Fuel consumption,Kraftstoffverbrauch,Measured L/100 km
+110,Викиди CO2,CO2 emissions,CO2-Emissionen,Environmental metric
+111,Складальний конвеєр,Assembly line,Fließband,Production
+112,Автомобільний завод,Automotive plant,Automobilwerk,Production facility
+113,Запасні частини,Spare parts,Ersatzteile,Aftermarket / OEM
+114,Серійне виробництво,Mass production,Serienproduktion,Manufacturing
+115,Контроль якості,Quality control,Qualitätskontrolle,EN abbr. QC
+116,Прототип,Prototype,Prototyp,R&D stage
+117,Автомобільний дилер,Car dealer,Autohändler,Sales channel
+118,Тест-драйв,Test drive,Probefahrt,Pre-purchase
+119,Гарантія,Warranty,Garantie,After-sales
+120,Лізинг,Leasing,Leasing,Financing model
+121,Автострахування,Car insurance,Kfz-Versicherung,Mandatory in most markets
+122,Технічний огляд,Vehicle inspection,Hauptuntersuchung,DE abbr. HU / 'TÜV'
+123,Свідоцтво про реєстрацію,Vehicle registration certificate,Fahrzeugschein,Legal document
